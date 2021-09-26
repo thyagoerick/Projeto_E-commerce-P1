@@ -56,3 +56,11 @@
     transform: scale(2);
     color: #000;
   }
+
+
+/* -----Página Esqueci Senha ------- */
+
+
+.f-password{
+  background-color: blue !important;
+}
