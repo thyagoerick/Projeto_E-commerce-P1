@@ -1,0 +1,2037 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../CSS/style.css" />
+
+    <title>Loja</title>
+  </head>
+  <body>
+    <body>
+      <nav class="navbar navbar-light bg-warning">
+        <a
+          class="navbar-brand mr-auto"
+          href="#"
+          style="font-family: Snell Roundhand, cursive"
+        >
+          <i class="fa fa-leaf text-dark" text-info aria-hidden="true"></i>
+          Brechó Brechó</a
+        >
+        <div class="container text-right m-0" style="width: 160px">
+          <a href="" class="text-dark"
+            ><i class="social-icon fa fa-twitter-square fa-1x"></i
+          ></a>
+          <a href="" class="text-dark"
+            ><i class="social-icon fa fa-google-plus-square fa-1x"></i
+          ></a>
+          <a href="" class="text-dark"
+            ><i class="social-icon fa fa-facebook-square fa-1x"></i
+          ></a>
+          <a href="" class="text-dark"
+            ><i class="social-icon fa fa-instagram fa-1x"></i
+          ></a>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-sm btn-cart" data-toggle="dropdown">
+            <i
+              class="fa fa-shopping-cart text-dark fa-2x"
+              aria-hidden="true"
+              style="cursor: pointer"
+            ></i
+            ><span class="badge badge-danger">3</span>
+          </button>
+
+          <div
+            class="dropdown-menu dropdown-menu-right"
+            style="min-width: 300px"
+          >
+            <div class="px-4 py-3">
+              <h6 class="text-center mb-5">Items Selecionados</h6>
+              <table class="table table-sm">
+                <thead class="text-center">
+                  <tr>
+                    <th></th>
+                    <th>Nome</th>
+                    <th>Número</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody class="text-center">
+                  <tr>
+                    <td class="align-middle text-center">
+                      <div class="list-card">
+                        <a
+                          class="text-muted"
+                          href="#removeModal"
+                          data-toggle="modal"
+                          data-target="#removeModal"
+                          data-title=""
+                          ><i class="fa fa-trash" aria-hidden="ture"></i
+                        ></a>
+                        <img
+                          src="https://i.pinimg.com/564x/ee/0f/88/ee0f880849e919c7ddbe53e3107b4d4a.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </td>
+                    <td class="align-middle">Established</td>
+                    <td class="align-middle">1</td>
+                    <td class="align-middle text-right">$600</td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-center">
+                      <div class="list-card">
+                        <a
+                          class="text-muted"
+                          href="#"
+                          data-toggle="modal"
+                          data-target="#removeModal"
+                          data-title=""
+                          ><i class="fa fa-trash" aria-hidden="ture"></i
+                        ></a>
+                        <img
+                          src="https://i.pinimg.com/564x/f4/5e/8e/f45e8ee28d8195399897ea6c0c5ab95d.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </td>
+                    <td class="align-middle">Unchanged</td>
+                    <td class="align-middle">2</td>
+                    <td class="align-middle text-right">$1600</td>
+                  </tr>
+                  <tr>
+                    <td class="del align-middle text-center">
+                      <div class="list-card">
+                        <a
+                          class="text-muted"
+                          href="#"
+                          data-toggle="modal"
+                          data-target="#removeModal"
+                          data-title=""
+                          ><i class="fa fa-trash" aria-hidden="ture"></i
+                        ></a>
+                        <img
+                          src="https://i.pinimg.com/564x/50/c4/e2/50c4e2d0b5eb3d0652e0aa5959cec9f7.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </td>
+                    <td class="align-middle">McClintock</td>
+                    <td class="align-middle">3</td>
+                    <td class="align-middle text-right">$2600</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <nav
+          aria-label="breadcrumb"
+          style="font-family: Didot, serif"
+          class="d-flex"
+        >
+          <ol class="breadcrumb bg-transparent pl-0 mr-auto">
+            <li class="breadcrumb-item">
+              <a class="text-dark" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a class="text-dark" href="#">Cadastro</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              <a class="text-dark" href="">Lista</a>
+            </li>
+          </ol>
+          <form class="form-inline">
+            <a
+              class="btn btn-outline-dark mr-2 btn-sm"
+              data-toggle="modal"
+              data-target="#loginModal"
+              href=""
+              >Entrar</a
+            >
+            <a
+              class="btn btn-dark btn-sm"
+              data-toggle="modal"
+              data-target="#createModal"
+              href=""
+              >Cadastrar</a
+            >
+          </form>
+        </nav>
+        <div
+          class="jumbotron jumbotron-fluid jumbotron-bg d-flex align-items-end"
+        >
+          <div class="container text-center">
+            <div class="bg-lighter p-3">
+              <h1 class="text-warning" style="font-family: Georgia, serif">
+                Veja nossos produtos
+              </h1>
+              <p
+                class="lead font-weight-light text-light"
+                style="font-size: 14px"
+              >
+                Visite o melhor que você pode encontrar
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div
+                class="list-group list-group-flush sticky-top"
+                style="top: 5px; font-family: Didot, serif"
+              >
+                <a
+                  class="
+                    list-group-item list-group-item-action
+                    text-secondary
+                    active
+                  "
+                  href="#pane-1"
+                  data-toggle="list"
+                >
+                  <!-- <i class="fa fa-star-o"></i>-->Roupas Femininas</a
+                >
+                <a
+                  class="list-group-item list-group-item-action text-secondary"
+                  href="#pane-2"
+                  data-toggle="list"
+                >
+                  <!-- <i class="fa fa-star-o"></i>-->Roupas Masculinas
+                </a>
+                <a
+                  class="list-group-item list-group-item-action text-secondary"
+                  href="#pane-3"
+                  data-toggle="list"
+                >
+                  <!-- <i class="fa fa-star-o"></i>-->Acessórios</a
+                >
+                <a
+                  class="list-group-item list-group-item-action text-secondary"
+                  href="#pane-4"
+                  data-toggle="list"
+                  >Presentes </a
+                ><a
+                  class="list-group-item list-group-item-action disabled"
+                  href="#"
+                >
+                  <!-- <i class="fa fa-star-o"></i>-->Chapéus</a
+                >
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="tab-content">
+                <div class="tab-pane active" id="pane-1">
+                  <div class="row">
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/ee/0f/88/ee0f880849e919c7ddbe53e3107b4d4a.jpg"
+                          alt="Card image cap"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Produto 1</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Donec finibus efficitur leo, eu efficitur
+                            ligula finibus eget. Vivamus sit amet felis nec
+                            lacus bibendum porta.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/67/54/43/675443007f69e7189fa1165849794c31.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Produto 2</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Donec finibus efficitur leo, eu efficitur
+                            ligula finibus eget. Vivamus sit amet felis nec
+                            lacus bibendum porta.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/f4/5e/8e/f45e8ee28d8195399897ea6c0c5ab95d.jpg"
+                          alt="Card image cap"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Produto 3</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Donec finibus efficitur leo, eu efficitur
+                            ligula finibus eget. Vivamus sit amet felis nec
+                            lacus bibendum porta.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/83/49/c4/8349c42327f5f5646b2b0100b0ee2e4d.jpg"
+                          alt="Card image cap"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Produto 4</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Donec finibus efficitur leo, eu efficitur
+                            ligula finibus eget. Vivamus sit amet felis nec
+                            lacus bibendum porta.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/da/9d/59/da9d59b003f936e1000a1169c650ab7d.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Produto 5</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Donec finibus efficitur leo, eu efficitur
+                            ligula finibus eget. Vivamus sit amet felis nec
+                            lacus bibendum porta.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/9f/28/28/9f28287807be9c930f43194f4b516211.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Produto 6</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Donec finibus efficitur leo, eu efficitur
+                            ligula finibus eget. Vivamus sit amet felis nec
+                            lacus bibendum porta.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="pane-2">
+                  <div class="row">
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/eb/d0/89/ebd089c4f8f08e1c8366d2df8d48218a.jpg"
+                          style="height: 250px"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Original</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Donec finibus efficitur leo, eu efficitur
+                            ligula finibus eget. Vivamus sit amet felis nec
+                            lacus bibendum porta.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/cd/93/8d/cd938d81f9b3fb5ff5a18e6f5ad64fd6.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Available</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Donec finibus efficitur leo, eu efficitur
+                            ligula finibus eget. Vivamus sit amet felis nec
+                            lacus bibendum porta.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/50/c4/e2/50c4e2d0b5eb3d0652e0aa5959cec9f7.jpg"
+                          style="height: 250px"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Alteration</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/60/07/c1/6007c15615a556a8ad2ddc4794c88172.jpg"
+                          style="height: 250px"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Purpose</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Donec finibus efficitur leo, eu efficitur
+                            ligula finibus eget. Vivamus sit amet felis nec
+                            lacus bibendum porta.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/c0/99/29/c099296795536ab36ad3655f1fd71205.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Readable</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Donec finibus efficitur leo, eu efficitur
+                            ligula finibus eget. Vivamus sit amet felis nec
+                            lacus bibendum porta.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/47/da/55/47da5510afd1bc227cc37352665cbaed.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Essentially</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="pane-3">
+                  <div class="row">
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/15/40/a9/1540a93c9e21e005f74f7d73445494bd.jpg"
+                          style="height: 250px"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Original</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/71/98/c4/7198c4857241a72cdcef084da6fa2179.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Available</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/45/58/87/455887c516e19820d87b2c13bdf9005c.jpg"
+                          style="height: 250px"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Alteration</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/9a/ba/69/9aba69c423a07f926699cd1143656132.jpg"
+                          style="height: 250px"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Purpose</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/61/e9/40/61e940416c3e7d93e745f63b965112a1.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Readable</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/d3/13/03/d3130326df06ec6824a821452f5d3a42.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Essentially</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="pane-4">
+                  <div class="row">
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/75/01/d0/7501d098a601bd93f5fdb60b231b8d3f.jpg"
+                          style="height: 250px"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Original</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/cd/93/8d/cd938d81f9b3fb5ff5a18e6f5ad64fd6.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Available</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/44/6f/0f/446f0fc2f398f3ac798f3a2c3622c738.jpg"
+                          style="height: 250px"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Alteration</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/60/07/c1/6007c15615a556a8ad2ddc4794c88172.jpg"
+                          style="height: 250px"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Purpose</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/9f/2c/6a/9f2c6a9ce65253d3fbead71791e72c10.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Readable</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card text-center h-80 border-0 box-shadow">
+                        <img
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/47/da/55/47da5510afd1bc227cc37352665cbaed.jpg"
+                          style="height: 250px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Essentially</h5>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <div class="card-footer bg-white px-0">
+                            <div class="btn-group btn-group-sm">
+                              <a class="btn btn-outline-secondary" href="#"
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- //產品購物頁面demo//-->
+      <div class="row p-3">
+        <div class="col-md-4">
+          <div class="sticky-top" style="top: 10px">
+            <h4 class="h2">Minimalist style</h4>
+            <div class="d-flex justify-content-end align-items-end mb-auto">
+              <span class="text-muted">Price $1299</span>
+              <div class="h3 ml-auto mb-0 text-danger">
+                <small> Discount Price NT$</small><strong>1200</strong>
+              </div>
+            </div>
+            <hr />
+            Type：
+            <div
+              class="btn-group btn-group-toggle btn-group-sm"
+              data-toggle="buttons"
+            >
+              <label class="btn btn-outline-secondary active disabled">
+                <input
+                  id="option1"
+                  type="radio"
+                  name="options"
+                  autocomplete="off"
+                  checked=""
+                />
+                Simple
+              </label>
+              <label class="btn btn-outline-secondary">
+                <input
+                  id="option2"
+                  type="radio"
+                  name="options"
+                  autocomplete="off"
+                />
+                North
+              </label>
+              <label class="btn btn-outline-secondary">
+                <input
+                  id="option3"
+                  type="radio"
+                  name="options"
+                  autocomplete="off"
+                />
+                Fanlan
+              </label>
+            </div>
+            <div class="input-group mt-3">
+              <select class="form-control mr-1" name="" id="">
+                <option value="1">single</option>
+                <option value="2">tweens</option>
+                <option value="3">three</option></select
+              ><a class="btn btn-primary" href="#">Add Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 mt-3">
+          <div class="card" style="width: 100%">
+            <img
+              class="card-img-top"
+              src="https://i.pinimg.com/564x/ea/2e/ef/ea2eef56f87384f74e5f36bfba72f656.jpg"
+              alt="Card image cap"
+            />
+            <img
+              class="mt-2"
+              src="https://i.pinimg.com/564x/1b/93/8f/1b938fb2d0d6c6cb7e36b54d14515391.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title">Tweens</h5>
+            <p class="card-text"></p>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </div>
+        </div>
+      </div>
+      <!-- // 購物流程demo //-->
+      <hr />
+      <div class="container main-contant py-5">
+        <h1 class="text-center mb-3 text-secondary">House living pay page</h1>
+        <div class="form-row text-center">
+          <div class="col-12 col-sm">
+            <div class="alert alert-dark alert-rounded" role="alert">
+              1.professor at Hampden-Sydney College in Virginia
+            </div>
+          </div>
+          <div class="col-12 col-sm">
+            <div class="alert alert-info alert-rounded" role="alert">
+              2.There are many variations of passages of Lorem Ipsum available
+            </div>
+          </div>
+          <div class="col-12 col-sm">
+            <div class="alert alert-warning alert-rounded" role="alert">
+              3.accompanied by English versions from the 1914
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-8">
+            <div class="card w-100" style="border: none">
+              <div class="card-header text-center bg-dark" id="headingOne">
+                <button
+                  class="btn btn-link text-light"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                  style="text-decoration: none; cursor: pointer"
+                >
+                  Pay Cart
+                </button>
+              </div>
+              <div
+                class="collapse"
+                id="collapseOne"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <div class="px-4 py-3">
+                    <h6 class="text-center mb-5">Selected item</h6>
+                    <table class="table table-sm">
+                      <thead class="text-center">
+                        <tr>
+                          <th></th>
+                          <th>Name</th>
+                          <th>Number</th>
+                          <th class="text-right">Total</th>
+                        </tr>
+                      </thead>
+                      <tbody class="text-center">
+                        <tr>
+                          <td class="align-middle">
+                            <div class="list-card">
+                              <a
+                                class="text-muted"
+                                href="#removeModal"
+                                data-toggle="modal"
+                                data-target="#removeModal"
+                                data-title="Established"
+                                ><i class="fa fa-trash" aria-hidden="ture"></i
+                              ></a>
+                              <img
+                                src="https://i.pinimg.com/564x/ee/0f/88/ee0f880849e919c7ddbe53e3107b4d4a.jpg"
+                                alt=""
+                              />
+                            </div>
+                          </td>
+                          <td class="align-middle">Established</td>
+                          <td class="align-middle">1</td>
+                          <td class="align-middle text-right">$600</td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle">
+                            <div class="list-card">
+                              <a
+                                class="text-muted"
+                                href="#"
+                                data-toggle="modal"
+                                data-target="#removeModal"
+                                data-title="Unchanged"
+                                ><i class="fa fa-trash" aria-hidden="ture"></i
+                              ></a>
+                              <img
+                                src="https://i.pinimg.com/564x/f4/5e/8e/f45e8ee28d8195399897ea6c0c5ab95d.jpg"
+                                alt=""
+                              />
+                            </div>
+                          </td>
+                          <td class="align-middle">Unchanged</td>
+                          <td class="align-middle">2</td>
+                          <td class="align-middle text-right">$1600</td>
+                        </tr>
+                        <tr>
+                          <td class="del align-middle">
+                            <div class="list-card">
+                              <a
+                                class="text-muted"
+                                href="#"
+                                data-toggle="modal"
+                                data-target="#removeModal"
+                                data-title="McClintock"
+                                ><i class="fa fa-trash" aria-hidden="ture"></i
+                              ></a>
+                              <img
+                                src="https://i.pinimg.com/564x/50/c4/e2/50c4e2d0b5eb3d0652e0aa5959cec9f7.jpg"
+                                alt=""
+                              />
+                            </div>
+                          </td>
+                          <td class="align-middle">McClintock</td>
+                          <td class="align-middle">3</td>
+                          <td class="align-middle text-right">$2600</td>
+                        </tr>
+                      </tbody>
+                      <tfoot class="text-right">
+                        <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td class="font-weight-bold">Fee: NT$200</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td class="font-weight-bold text-danger">
+                            Total: NT$4800
+                          </td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                    <a
+                      class="btn btn-primary btn-block"
+                      href="#"
+                      data-toggle="modal"
+                      data-target="#editModal"
+                      data-title="Checkout list"
+                      >Check out</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-8">
+            <div class="card w-100">
+              <div class="card-header bg-info text-center font-weight-bold">
+                Orderer information
+              </div>
+              <div class="card-body">
+                <div class="px-4 py-3">
+                  <form class="">
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationServer01">First name</label>
+                        <input
+                          class="form-control is-valid"
+                          id="validationServer01"
+                          type="text"
+                          placeholder="First name"
+                          value="Mark"
+                          required=""
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="validationServer02">Last name</label>
+                        <input
+                          class="form-control is-valid"
+                          id="validationServer02"
+                          type="text"
+                          placeholder="Last name"
+                          value="Otto"
+                          required=""
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-4 mb-3">
+                        <label for="validationServer03">Country</label>
+                        <select
+                          class="form-control is-invalid"
+                          name=""
+                          id=""
+                          required
+                        >
+                          <option value="">Albania</option>
+                          <option value="">Mexico</option>
+                          <option value="">Bahamas</option>
+                          <option value="">Russian Federation</option>
+                          <option value="">Norway</option>
+                          <option value="">Bolivia</option>
+                          <option value="">Peru</option>
+                          <option value="">Colombia</option>
+                          <option value="">Qatar</option>
+                          <option value="">Nigeria</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please provide a valid country.
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationServer05">City</label>
+                        <select
+                          class="form-control is-invalid"
+                          name=""
+                          id=""
+                          required
+                        >
+                          <option value="">New York</option>
+                          <option value="">Los Angeles</option>
+                          <option value="">Charlotte</option>
+                          <option value="">Austin</option>
+                          <option value="">Paris</option>
+                          <option value="">London</option>
+                          <option value="">Zurich</option>
+                          <option value="">Brussels</option>
+                          <option value="">Oslo</option>
+                          <option value="">Madrid</option>
+                        </select>
+
+                        <div class="invalid-feedback">
+                          Please enter your city.
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationServer05">Postal code</label>
+                        <input
+                          class="form-control is-invalid"
+                          id="validationServer05"
+                          type="number"
+                          placeholder="post code"
+                          required=""
+                        />
+                        <div class="invalid-feedback">
+                          Please enter your postal code.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-12 mb-3">
+                        <label for="validationServer05">Email</label>
+                        <input
+                          class="form-control is-invalid"
+                          id="validationServer05"
+                          type="email"
+                          placeholder="email"
+                          required=""
+                        />
+                        <div class="invalid-feedback">
+                          Please enter your email.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-12 mb-3">
+                        <label for="validationServer01">address</label>
+                        <input
+                          class="form-control is-invalid"
+                          id="validationServer01"
+                          type="text"
+                          placeholder="Address"
+                          value="No.12, Sec. 4, Ren’ai Rd., Xinyi Dist., Taipei City 110, Taiwan (R.O.C.)"
+                          required=""
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                      </div>
+                    </div>
+                    <div class="form-group pl-4">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input is-invalid"
+                          id="invalidCheck3"
+                          type="checkbox"
+                          value=""
+                          required=""
+                        />
+                        <label class="form-check-label" for="invalidCheck3"
+                          >Agree to terms and conditions</label
+                        >
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="btn btn-primary"
+                      type="submit"
+                      data-toggle="modal"
+                      data-target="#sendModal"
+                      data-title="Double Confirm"
+                    >
+                      Send
+                    </button>
+                    <button
+                      class="btn btn-secondary"
+                      type="submit"
+                      data-toggle="modal"
+                      data-target="#sendModal"
+                      data-title="Double Confirm"
+                    >
+                      Continue to buy
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-8">
+            <div class="card w-100">
+              <div class="card-header bg-warning text-center font-weight-bold">
+                Checkout completed
+              </div>
+              <div class="card-body">
+                <table class="table table-sm p-5 text-center">
+                  <thead>
+                    <div class="h5 m-4 text-center">Purchase information</div>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Number</td>
+                      <td>Subtotal</td>
+                    </tr>
+                    <tr>
+                      <td class="h5">
+                        <div class="pay-fin-img my-3">
+                          <img
+                            class="card-img-top"
+                            src="https://i.pinimg.com/564x/15/40/a9/1540a93c9e21e005f74f7d73445494bd.jpg"
+                            style="height: 80px; width: 80px"
+                            alt="Card image cap"
+                          />
+                        </div>
+
+                        Essentially
+                      </td>
+                      <td class="align-middle">1</td>
+                      <td class="align-middle">NT$2400</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td class="text-right font-weight-bold">Fee: NT$200</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td class="text-right text-danger font-weight-bold">
+                        Total: NT$2600
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tfoot></tfoot>
+
+                  <table class="table table-sm text-center">
+                    <tbody>
+                      <div class="h5 text-center p-4">personal information</div>
+                      <tr>
+                        <td class="font-weight-bold">Email</td>
+                        <td colspan="8">white256***@gmail.com</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Name</td>
+                        <td colspan="8">hand hand</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Phone</td>
+                        <td colspan="8">0976534***</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Address</td>
+                        <td colspan="8">***********</td>
+                      </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                  </table>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--edit&remove Modal-->
+      <div
+        class="modal fade"
+        id="removeModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-white bg-danger">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                class="close"
+                type="button"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="card-body">
+                <div class="px-4 py-3">
+                  <h6 class="text-center mb-5">Selected item</h6>
+                  <table class="table table-sm">
+                    <thead class="text-center">
+                      <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Number</th>
+                        <th class="text-right">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody class="text-center">
+                      <tr>
+                        <td class="align-middle">
+                          <div class="list-card">
+                            <a
+                              class="text-muted"
+                              href="#removeModal"
+                              data-toggle="modal"
+                              data-target="#removeModal"
+                              data-title=""
+                              ><i class="fa fa-trash" aria-hidden="ture"></i
+                            ></a>
+                            <img
+                              src="https://i.pinimg.com/564x/ee/0f/88/ee0f880849e919c7ddbe53e3107b4d4a.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">Established</td>
+                        <td class="align-middle">1</td>
+                        <td class="align-middle text-right">$600</td>
+                      </tr>
+                      <tr>
+                        <td class="align-middle">
+                          <div class="list-card">
+                            <a
+                              class="text-muted"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#removeModal"
+                              data-title=""
+                              ><i class="fa fa-trash" aria-hidden="ture"></i
+                            ></a>
+                            <img
+                              src="https://i.pinimg.com/564x/f4/5e/8e/f45e8ee28d8195399897ea6c0c5ab95d.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">Unchanged</td>
+                        <td class="align-middle">2</td>
+                        <td class="align-middle text-right">$1600</td>
+                      </tr>
+                      <tr>
+                        <td class="del align-middle">
+                          <div class="list-card">
+                            <a
+                              class="text-muted"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#removeModal"
+                              data-title=""
+                              ><i class="fa fa-trash" aria-hidden="ture"></i
+                            ></a>
+                            <img
+                              src="https://i.pinimg.com/564x/50/c4/e2/50c4e2d0b5eb3d0652e0aa5959cec9f7.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">McClintock</td>
+                        <td class="align-middle">3</td>
+                        <td class="align-middle text-right">$2600</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                class="btn btn-outline-dark"
+                type="button"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button class="btn btn-outline-danger" type="button">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="editModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-white bg-warning">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                class="close"
+                type="button"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="card-body">
+                <div class="px-4 py-3">
+                  <h6 class="text-center mb-5">Selected item</h6>
+                  <table class="table table-sm">
+                    <thead class="text-center">
+                      <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Number</th>
+                        <th class="text-right">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody class="text-center">
+                      <tr>
+                        <td class="align-middle">
+                          <div class="list-card">
+                            <img
+                              src="https://i.pinimg.com/564x/ee/0f/88/ee0f880849e919c7ddbe53e3107b4d4a.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">Established</td>
+                        <td class="align-middle">1</td>
+                        <td class="align-middle text-right">$600</td>
+                      </tr>
+                      <tr>
+                        <td class="align-middle">
+                          <div class="list-card">
+                            <img
+                              src="https://i.pinimg.com/564x/f4/5e/8e/f45e8ee28d8195399897ea6c0c5ab95d.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">Unchanged</td>
+                        <td class="align-middle">2</td>
+                        <td class="align-middle text-right">$1600</td>
+                      </tr>
+                      <tr>
+                        <td class="del align-middle">
+                          <div class="list-card">
+                            <img
+                              src="https://i.pinimg.com/564x/50/c4/e2/50c4e2d0b5eb3d0652e0aa5959cec9f7.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">McClintock</td>
+                        <td class="align-middle">3</td>
+                        <td class="align-middle text-right">$2600</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                class="btn btn-outline-dark"
+                type="button"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button class="btn btn-outline-danger" type="button">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="sendModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-light">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                class="close"
+                type="button"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form class="p-5">
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationServer01">First name</label>
+                    <input
+                      class="form-control is-valid"
+                      id="validationServer01"
+                      type="text"
+                      placeholder="First name"
+                      value="Mark"
+                      required=""
+                    />
+                    <div class="valid-feedback"></div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationServer02">Last name</label>
+                    <input
+                      class="form-control is-valid"
+                      id="validationServer02"
+                      type="text"
+                      placeholder="Last name"
+                      value="Otto"
+                      required=""
+                    />
+                    <div class="valid-feedback"></div>
+                  </div>
+                  <div class="col-md-4 mb-3"></div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationServer03">City</label>
+                    <input
+                      class="form-control is-invalid"
+                      id="validationServer03"
+                      type="text"
+                      placeholder="City"
+                      required=""
+                    />
+                    <div class="invalid-feedback"></div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationServer05">Email</label>
+                    <input
+                      class="form-control is-invalid"
+                      id="validationServer05"
+                      type="email"
+                      placeholder="email"
+                      required=""
+                    />
+                    <div class="invalid-feedback"></div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-12 mb-3">
+                    <label for="validationServer01">address</label>
+                    <input
+                      class="form-control is-invalid"
+                      id="validationServer01"
+                      type="text"
+                      placeholder="First name"
+                      value="Mark"
+                      required=""
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+                </div>
+                <div class="form-group text-center">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input is-invalid mt-2"
+                      id="invalidCheck3"
+                      type="checkbox"
+                      value=""
+                      required=""
+                    />
+                    <label class="form-check-label" for="invalidCheck3"
+                      >Confirm that no problem is sent</label
+                    >
+                    <button class="btn btn-outline-danger ml-3">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-dark">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center text-white py-4">
+              Shanxi Central St., Beitun Dist., Taichung City 406, Taiwan
+              (R.O.C.)
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- accountModal -->
+      <div
+        class="modal fade"
+        id="createModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-warning">
+              <h5 class="modal-title" id="exampleModalLabel">Create</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="text-center mb-5">
+                <h3>Create new account</h3>
+                <p>
+                  "At vero eos et accusamus et iusto odio dignissimos ducimus
+                  qui blanditiis praesentium voluptatum deleniti atque corrupti
+                  quos dolores et quas molestias excepturi sint occaecati
+                  cupiditate non provident, similique sunt in culpa qui officia
+                  deserunt mollitia animi, id est laborum et dolorum fuga.
+                </p>
+              </div>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >We'll never share your email with anyone else.</small
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Check Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                    required
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Check me out</label
+                  >
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+              </form>
+            </div>
+            <div class="modal-footer footerLink">
+              <a
+                href="#"
+                data-dismiss="modal"
+                class="mr-auto"
+                data-toggle="modal"
+                data-target="#loginModal"
+                >Switch to Log in</a
+              >
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- loginModal -->
+      <div
+        class="modal fade"
+        id="loginModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-light">
+              <h5 class="modal-title" id="exampleModalLabel">Log in</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                    required
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >We'll never share your email with anyone else.</small
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Check me out</label
+                  >
+                </div>
+                <button type="submit" class="btn btn-primary">Log in</button>
+              </form>
+            </div>
+            <div class="modal-footer footerLink">
+              <a
+                href="#"
+                data-dismiss="modal"
+                class="mr-auto"
+                data-toggle="modal"
+                data-target="#createModal"
+                >Switch to registration</a
+              >
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"
+      ></script>
+      <script>
+        $("#editModal").on("show.bs.modal", function (evt) {
+          let btn = $(evt.relatedTarget);
+          let title = btn.data("title");
+          let modal = $(this);
+          modal.find(".modal-title").text(title);
+        });
+
+        $("#removeModal").on("show.bs.modal", function (evt) {
+          let btn = $(evt.relatedTarget);
+          let title = btn.data("title");
+          let modal = $(this);
+          modal.find(".modal-title").text("Confirm Deletion" + " :   " + title);
+        });
+
+        $("#sendModal").on("show.bs.modal", function (evt) {
+          let btn = $(evt.relatedTarget);
+          let title = btn.data("title");
+          let modal = $(this);
+          modal.find(".modal-title").text("Double Confirm" + " :   " + title);
+        });
+      </script>
+    </body>
+  </body>
+</html>
