@@ -21,14 +21,15 @@
 
     <title>Esqueci a Senha</title>
   </head>
-  <body>
-    <div class="container p-5 my-3 col-md-6 f-password text-white">
-      <h2>Esqueceu sua senha?</h2>
+  <body class="body-password">
+    <div class="container p-5 my-3 col-md-6 f-password">
+      <h2>Esqueceu a senha?</h2>
       <div class="row">
         <div class="form-group col-md-12">
-          <h4>Informe seu endereço de E-mail para recuperar:</h4>
+          <h4>Informe seu endereço de E-mail para recuperar</h4>
           <div>
-            <label for="email" class="">E-mail</label>
+            <br />
+            <h4 for="email" class="">E-mail:</h4>
             <input
               type="email"
               class="form-control"
@@ -38,10 +39,61 @@
             />
           </div>
           <br />
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
-        <div class="col-md-3">
-          <h2>lalalalala</h2>
+          <div style="text-align: center">
+            <img class="col-md-12 center"
+            src="../IMGs/page_images/Email-capture-bro.svg"
+            alt="E-mail Enviado"
+            style="max-height: 300px"
+          />
+            <button
+              type="submit"
+              class="btn f-button col-md-4 center"
+              data-toggle="modal"
+              data-target="#enviarModal"
+            >
+              Enviar
+            </button>
+
+
+          </div>
+
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="enviarModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="enviarModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enviarModalLabel">Aviso</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            A nova senha foi enviada para seu endereço de E-mail.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
         </div>
       </div>
     </div>

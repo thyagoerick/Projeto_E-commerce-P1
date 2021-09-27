@@ -60,7 +60,18 @@
 
 /* -----Página Esqueci Senha ------- */
 
+.body-password{
+  background-color: #c2943e !important;
+  color: rgb(78, 77, 77);
+}
+
 
 .f-password{
-  background-color: blue !important;
+  background-color: #fefefe !important;
+}
+
+
+.f-password .f-button{
+  background-color: #336548;
+  color: white;
 }
