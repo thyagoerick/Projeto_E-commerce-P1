@@ -10,4 +10,13 @@
         - embedded-opentype;
         - truetype-aat (aat = Apple Advanced Typography);
     */
+
 }
+myFont{
+    font-family: "Bulldozer";
+}
+
+.colorTxtNav{
+    color: #fefefe;
+}
+
