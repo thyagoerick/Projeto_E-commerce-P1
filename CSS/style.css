@@ -5,16 +5,13 @@
 
 
 .bg-img{
-    background-image: url('/IMGs/CONSULTA_SITE/bgNAVBAR.jpg');
+    background-image: url('../IMGs/CONSULTA_SITE/bgNAVBAR.jpg');
     width: 100%;
     height: auto;
     background-size: cover;
 }
 
 
-.navbar {
-    background-color: #262525;
-}
 
 /*Deixa o menu hamburguer branco*/
 .navbar-light .navbar-toggler-icon{
