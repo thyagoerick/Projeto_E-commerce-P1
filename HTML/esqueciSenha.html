@@ -18,10 +18,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../CSS/style.css" />
+    <!-- RegEx e Valida JS-->
+    <script lang="javascript" src="../JS/valida.js"></script>
+    <script lang="javascript" src="../JS/regEx.js"></script>
 
     <title>Esqueci a Senha</title>
   </head>
   <body class="body-password">
+    <form action="">
     <div class="container p-5 my-3 col-md-6 f-password">
       <h2>Esqueceu a senha?</h2>
       <div class="row">
@@ -33,10 +37,22 @@
             <input
               type="email"
               class="form-control"
-              id="email"
-              placeholder="nome@email.com.br"
+              id="inputEmailCad"
+              placeholder="Digite o seu email"
+              size="60"
               required
+              title="Informe um email correto."
             />
+          </div>
+          <div>
+            <br />
+            <button
+              type="submit"
+              class="btn f-button"
+
+            >
+              Testar E-mail
+            </button>
           </div>
           <br />
           <div style="text-align: center">
@@ -50,6 +66,7 @@
               class="btn f-button col-md-4 center"
               data-toggle="modal"
               data-target="#enviarModal"
+
             >
               Enviar
             </button>
@@ -59,7 +76,7 @@
 
       </div>
     </div>
-
+  </form>
     <!-- Modal -->
     <div
       class="modal fade"
@@ -116,5 +133,20 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      function validar(){
+     //Valida E-mail
+     if(!regEmail.test(inputEmailLog.value)){
+        alert("Informe o email cadastrado!");
+		inputEmailLog.focus();
+		inputEmailLog.value="";
+		return false;
+     }
+    }
+    </script>
+
+
+
   </body>
 </html>
