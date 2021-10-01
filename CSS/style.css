@@ -1,8 +1,9 @@
+/*------------------------------------------ESTILOS GLOBAIS------------------------------------------*/
+
 /*--------------------------Por Classe--------------------------------*/
 .menu{
     background-color: #c2943e;
 }
-
 
 .bg-img{
     background-image: url('../IMGs/CONSULTA_SITE/bgNAVBAR.jpg');
@@ -10,8 +11,6 @@
     height: auto;
     background-size: cover;
 }
-
-
 
 /*Deixa o menu hamburguer branco*/
 .navbar-light .navbar-toggler-icon{
@@ -24,7 +23,6 @@
     margin-right: 10px;
 }
 
-
 .linkNav{
     padding-left: 5px;
 }
@@ -35,15 +33,12 @@
 .linkSVG:link, .linkSVG:visited, .linkSVG:active {color:#fefefe;}
 .linkSVG:hover{color:#c2943e;} /*Mouse em cima do link*/
 
-
 .navbar .navbar-collapse {
 text-align: center;
 margin-right: 0.75em;
 }
-/*---------------------------------------------------------------------*/
 
 /*---------------------------Por Tag-----------------------------------*/
-
 a{
     font-weight: bold;
     text-decoration: none;
@@ -56,38 +51,126 @@ small{
 nav{
     padding-bottom: 900%;
 }
-/*---------------------------------------------------------------------*/
 
 /*----------------------------Medias Querys----------------------------*/  
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 340px) {
     /*Se a janela do navegador tiver 300px ou menos de largura
     a font muda de tamanho para o botão da navbar não quebar na linha*/
-    .colorTxtNav{
-        font-size: 14px;
+    .colorTxtNav{font-size: 14px;}
+    .linkNav{padding-left: 10px;}
+    .menu{font-size: small;}
+
+    .login #login {
+        font-size: 10px;
+        text-align:left;
+        width: 100%;
+        padding-left: 0px;
     }
-    .linkNav{
-        padding-left: 10px;
+
+    #login #form{
+        text-align: left;
+        display: inline-table;
+        padding: 0px;
+    }
+    #login #linkImg{
+        display: inline-table;
+        border-top-color:#C2943E;
+        border-top-width: medium;
+        border-top-style: solid;
+        padding: 0px;
         
     }
-
-    .menu{
-        font-size: small;
+    #imgLogin{
+        width: 3%;
     }
   }
-/*---------------------------------------------------------------------*/
+/*------------------------SCROLL-BAR------------------------*/
+body::-webkit-scrollbar-track {
+    /*Edita o fundo da scrollbar*/
+    background-color: #90454d69;
+}
+
+body::-webkit-scrollbar {
+    /*Edita as dimeções globais da scrollbar*/
+    background: #F4F4F4;
+  }
+body::-webkit-scrollbar-thumb {
+    /*Edita o fundo a scrollbar*/
+    background: #336548;
+}
+/*--------------------------------------FIM ESTILOS GLOBAIS------------------------------------------*/
+
+
+/* -----Página loginEcadastro ------- */
+.linkCadastro:link, .linkCadastro:visited, .linkCadastro:active {color:#336548;}
+.linkCadastro:hover{color:#C2943E;} /*Mouse em cima do link*/
+#login{
+    width: 100%;
+    display: inline-table;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+}
+
+#login #form{
+    width: 50%;
+    display: inline-table;
+    padding-right: 20px;
+    padding-left: 10%;
+    color: #336548;
+}
+#login #linkImg{
+    width: 50%;
+    display: inline-table;
+    text-align: center;
+}
+
+#imgLogin{
+    height: auto; 
+    width: 60%; 
+}
+
+#cadastro{
+    padding-top: 5%;
+
+    padding-bottom: 40%;
+    border-top-color:#C2943E;
+    border-top-width: 2.4px;
+    border-top-style: dotted; 
+}
+/*#90454C*/
+@media only screen and (max-width: 640px){
+    #login {
+        width: 100%;
+        text-align: center;
+    }
+    #login #form{
+        text-align: justify;
+        width: 100%;
+        display: inline-table;
+        padding-bottom: 30px;
+    }
+    #login #linkImg{
+        
+        width: 100%;
+        display: inline-table;
+        border-top-color:#C2943E;
+        border-top-width: medium;
+        border-top-style: ridge;  
+        padding-top: 20px;
+    }
+  }
+
+
 
 /* -----Página Esqueci Senha ------- */
-
 .body-password{
     background-color: #c2943e !important;
     color: rgb(78, 77, 77);
   }
   
-  
   .f-password{
     background-color: #fefefe !important;
   }
-  
   
   .f-password .f-button{
     background-color: #336548;
