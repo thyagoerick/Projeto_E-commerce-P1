@@ -176,3 +176,17 @@ body::-webkit-scrollbar-thumb {
     background-color: #336548;
     color: white;
   }
+
+/*---------------------------------------------------------------------*/
+
+/* -----Página Cesta ------- */
+
+  .add-more {
+      color: #2183ed;
+      margin-bottom: 20px;
+  }
+
+  .final-line{
+
+      margin-bottom: 25px;
+  }
