@@ -116,8 +116,7 @@
               <strong>Não possui cadastro?</strong>
             </h4>
            
-              <a href="#cadastro" class="linkCadastro" id="clique" title="Clique 1x para mostrar a seção de cadastro. 
-Clique 2x para ocultar a seção de cadastro."> 
+              <a href="#cadastro" class="linkCadastro" id="clique" title="Clique 1x para mostrar a seção de cadastro."> 
                 <img id="imgLogin" src="/IMGs/page_images/cadastro.png"/>
                 <p>
                   Clique aqui para fazer.
@@ -127,10 +126,9 @@ Clique 2x para ocultar a seção de cadastro.">
           </div>
 </section>
 
-
 <section id="cadastro" class="colorTxtR">
   <div class="container">
-    <h3 class="myFont">NOVO CADASTRO:</h3>
+    <a class="colorTxtR linkCad" href="#cadastro" id="clique" title="Clique 2x para ocultar a seção de cadastro."><h3 class="myFont">NOVO CADASTRO:</h3></a>
     <form>
 
       <div class="form-row">
@@ -225,7 +223,39 @@ Clique 2x para ocultar a seção de cadastro.">
     </form>
   </div>
 </section>
+
+
+
+<footer id="footer">
+
+  <div id="empresa" class="container">
+    <a href="../HTML/vitrine.html">
+      <img id="imgEmpresa" src="/IMGs/CONSULTA_SITE/LOGO-F.jpeg">
+    </a>
+    <p style="padding-top: 2%;"class="colorTxtW">
+      © 2021 <myFont>ELANEON</myFont> - Adriano e Thyago
+    </p>
+  </div>
+
+  <div id="devs" class="container colorTxtW">
+    <svg xmlns="http://www.w3.org/2000/svg" height="32" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+    </svg>
+    <p>
+    <a class="linkNav" href="https://github.com/Sancho777">
+      Adriano Dev
+    </a>
+    &
+    <a class="linkNav" href="https://github.com/thyagoerick">
+      Thyago Dev
+    </a>
+  </p>
+  </div>
+
+</footer>
+
 </body>
+
 <script lang="javascript">
 /*
 $(document).ready() = sempre que este documento carregar vai executar a função passada como parâmetro para o .ready()
@@ -239,8 +269,9 @@ $('#clique').click(function(){
   $('#cadastro').show();
 });
 
-$('#clique').dblclick(function(){
+$('.linkCad').dblclick(function(){
   $('#cadastro').hide();
 });
 </script>
+
 </html>
