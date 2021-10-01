@@ -83,6 +83,9 @@ nav{
     #imgLogin{
         width: 3%;
     }
+    .svg{
+        height: 40px;
+    }
   }
 /*------------------------SCROLL-BAR------------------------*/
 body::-webkit-scrollbar-track {
@@ -113,6 +116,9 @@ body::-webkit-scrollbar-thumb {
     padding-bottom: 3%;
     padding-top: 5%;
     text-align: center;
+    border-top-color:#90454c;
+    border-top-width: 10px;
+    border-top-style: solid;
 }
 
 #footer #empresa{
@@ -128,7 +134,10 @@ body::-webkit-scrollbar-thumb {
 }
 #imgEmpresa{
     height: auto; 
-    width: 80%; 
+    width: 60%; 
+}
+.svg{
+    height: 65px;
 }
 @media only screen and (max-width: 640px){
     #footer {
@@ -152,6 +161,9 @@ body::-webkit-scrollbar-thumb {
     #imgEmpresa{
         height: auto; 
         width: 100%; 
+    }
+    .svg{
+        height: 45px;
     }
   }
 
@@ -188,7 +200,7 @@ body::-webkit-scrollbar-thumb {
 
 #cadastro{
     padding-top: 5%;
-    padding-bottom: 40%;
+    padding-bottom: 10%;
     border-top-color:#C2943E;
     border-top-width: 2.4px;
     border-top-style: dotted; 
