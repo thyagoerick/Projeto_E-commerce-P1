@@ -107,3 +107,20 @@ nav{
 
       margin-bottom: 25px;
   }
+
+  /*---------------------------------------------------------------------*/
+
+/* -----Página Vitrine ------- */
+
+
+  .box-img img {
+    object-fit: cover !important;
+    height: 350px;
+}
+
+.list-group-item{
+    font-family: Roboto, Arial;
+    font-size: 16px; 
+
+}
+

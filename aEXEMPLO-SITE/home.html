@@ -1,92 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<html lang="en">
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
- 
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-    <!-- Bootstrap Icons CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../estiloSiteEx.css" />
 
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <title>ELANEON</title>
-  <!--Fonte da Cliente-->
-  <link rel="stylesheet" href="../CSS/fonts.css">
-  <!--Nosso CSS-->
-  <link rel="stylesheet" href="../CSS/style.css">
-  <!--Ícone-->
-  <link rel="icon" type="image/png" href="/IMGs/icone-site.png">
-</head>
-<body>
-<!--------------------------------NAVBAR-------------------------------->
-    <nav class="navbar navbar-expand-lg navbar-light justify-content-center bg-img">
-        <a class="navbar-brand" href="#"><h4 class="colorTxtNav">Brechó <myFont>ELANEON</myFont></h4></a>
-
-        <button class="navbar-toggler text-white btnHamburguer" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarSuportado">
-            <form action="/HTML/busca.html" method="GET">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-outline-light" type="submit" id="button-addon2">OK</button>
-                    </div>
-                  </div>                
-                </div>
-            </form>
-            <a href="/HTML/loginEcadastro.html" class="colorTxtNav linkSVG">
-                <svg xmlns="http://www.w3.org/2000/svg" height="30px" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                </svg><small>Entrar/Cadastrar</small>
-            </a>
-        </div>
-    </nav>
-    <div> 
-    <ul class="nav justify-content-center menu ">
-        <li class="nav-item">
-          <a class="nav-link colorTxtNav linkNav" href="#">Sobre nós 
-            <svg xmlns="http://www.w3.org/2000/svg" height="20px" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16" style="padding-bottom: 4px">
-              <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"/>
-            </svg> /</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle colorTxtNav linkNav" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Peças  
-              <svg xmlns="http://www.w3.org/2000/svg" height="20px"  fill="currentColor" class="bi bi-recycle" viewBox="0 0 16 16">
-                <path d="M9.302 1.256a1.5 1.5 0 0 0-2.604 0l-1.704 2.98a.5.5 0 0 0 .869.497l1.703-2.981a.5.5 0 0 1 .868 0l2.54 4.444-1.256-.337a.5.5 0 1 0-.26.966l2.415.647a.5.5 0 0 0 .613-.353l.647-2.415a.5.5 0 1 0-.966-.259l-.333 1.242-2.532-4.431zM2.973 7.773l-1.255.337a.5.5 0 1 1-.26-.966l2.416-.647a.5.5 0 0 1 .612.353l.647 2.415a.5.5 0 0 1-.966.259l-.333-1.242-2.545 4.454a.5.5 0 0 0 .434.748H5a.5.5 0 0 1 0 1H1.723A1.5 1.5 0 0 1 .421 12.24l2.552-4.467zm10.89 1.463a.5.5 0 1 0-.868.496l1.716 3.004a.5.5 0 0 1-.434.748h-5.57l.647-.646a.5.5 0 1 0-.708-.707l-1.5 1.5a.498.498 0 0 0 0 .707l1.5 1.5a.5.5 0 1 0 .708-.707l-.647-.647h5.57a1.5 1.5 0 0 0 1.302-2.244l-1.716-3.004z"/>
-              </svg> /</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Primavera</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Verão</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Inverno</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Para dormir</a>
-            </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link colorTxtNav linkNav" href="/HTML/cesta.html">
-                Cesta 
-                <svg xmlns="http://www.w3.org/2000/svg" height="20px" fill="currentColor" class="bi bi-basket-fill" viewBox="0 0 16 16" style="padding-bottom: 4px">
-                    <path d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z"/>
-                </svg> /
-            </a>
-        </li>
-    </ul>
-    </div> 
-<!--------------------------------FIM NAVBAR-------------------------------->
-
-<body>
+    <title>Loja</title>
+  </head>
+  <body>
 
         <div
           class="jumbotron jumbotron-fluid jumbotron-bg d-flex align-items-end"
@@ -121,7 +55,7 @@
                   href="#pane-1"
                   data-toggle="list"
                 >
-                  Primavera</a
+                  <!-- <i class="fa fa-star-o"></i>-->Primavera</a
                 >
                 <a
                   class="list-group-item list-group-item-action text-secondary"
@@ -152,13 +86,13 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
-                          src="..\IMGs\PECAS\A (3).jpeg"
+                          class="card-img-top"
+                          src="https://i.pinimg.com/564x/ee/0f/88/ee0f880849e919c7ddbe53e3107b4d4a.jpg"
                           alt="Card image cap"
                           style="height: 250px"
                         />
                         <div class="card-body">
-                          <h5 class="card-title ">Produto 1</h5>
+                          <h5 class="card-title">Produto 1</h5>
                           <p class="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Donec finibus efficitur leo, eu efficitur
@@ -168,11 +102,14 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
-                              
                             </div>
                           </div>
                         </div>
@@ -181,7 +118,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/67/54/43/675443007f69e7189fa1165849794c31.jpg"
                           style="height: 250px"
                         />
@@ -196,10 +133,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
-                              
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -209,7 +149,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/f4/5e/8e/f45e8ee28d8195399897ea6c0c5ab95d.jpg"
                           alt="Card image cap"
                           style="height: 250px"
@@ -225,9 +165,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -237,7 +181,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/83/49/c4/8349c42327f5f5646b2b0100b0ee2e4d.jpg"
                           alt="Card image cap"
                           style="height: 250px"
@@ -253,9 +197,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -265,7 +213,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/da/9d/59/da9d59b003f936e1000a1169c650ab7d.jpg"
                           style="height: 250px"
                         />
@@ -280,9 +228,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -292,7 +244,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/9f/28/28/9f28287807be9c930f43194f4b516211.jpg"
                           style="height: 250px"
                         />
@@ -307,9 +259,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -323,7 +279,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/eb/d0/89/ebd089c4f8f08e1c8366d2df8d48218a.jpg"
                           style="height: 250px"
                           alt="Card image cap"
@@ -339,9 +295,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -351,7 +311,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/cd/93/8d/cd938d81f9b3fb5ff5a18e6f5ad64fd6.jpg"
                           style="height: 250px"
                         />
@@ -366,9 +326,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -378,7 +342,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/50/c4/e2/50c4e2d0b5eb3d0652e0aa5959cec9f7.jpg"
                           style="height: 250px"
                           alt="Card image cap"
@@ -393,9 +357,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -405,7 +373,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/60/07/c1/6007c15615a556a8ad2ddc4794c88172.jpg"
                           style="height: 250px"
                           alt="Card image cap"
@@ -421,9 +389,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -433,7 +405,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/c0/99/29/c099296795536ab36ad3655f1fd71205.jpg"
                           style="height: 250px"
                         />
@@ -448,9 +420,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -460,7 +436,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/47/da/55/47da5510afd1bc227cc37352665cbaed.jpg"
                           style="height: 250px"
                         />
@@ -474,10 +450,14 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                              >Detalhes</a
-                            ><a class="btn btn-outline-secondary" href="#"
-                              >Comprar</a
-                            >
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
                             </div>
                           </div>
                         </div>
@@ -490,7 +470,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/15/40/a9/1540a93c9e21e005f74f7d73445494bd.jpg"
                           style="height: 250px"
                           alt="Card image cap"
@@ -505,9 +485,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -517,7 +501,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/71/98/c4/7198c4857241a72cdcef084da6fa2179.jpg"
                           style="height: 250px"
                         />
@@ -531,9 +515,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -543,7 +531,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/45/58/87/455887c516e19820d87b2c13bdf9005c.jpg"
                           style="height: 250px"
                           alt="Card image cap"
@@ -558,9 +546,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -570,7 +562,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/9a/ba/69/9aba69c423a07f926699cd1143656132.jpg"
                           style="height: 250px"
                           alt="Card image cap"
@@ -585,9 +577,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -597,7 +593,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/61/e9/40/61e940416c3e7d93e745f63b965112a1.jpg"
                           style="height: 250px"
                         />
@@ -611,9 +607,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -623,7 +623,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/d3/13/03/d3130326df06ec6824a821452f5d3a42.jpg"
                           style="height: 250px"
                         />
@@ -637,9 +637,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -653,7 +657,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/75/01/d0/7501d098a601bd93f5fdb60b231b8d3f.jpg"
                           style="height: 250px"
                           alt="Card image cap"
@@ -668,9 +672,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -680,7 +688,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/cd/93/8d/cd938d81f9b3fb5ff5a18e6f5ad64fd6.jpg"
                           style="height: 250px"
                         />
@@ -694,9 +702,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -706,7 +718,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/44/6f/0f/446f0fc2f398f3ac798f3a2c3622c738.jpg"
                           style="height: 250px"
                           alt="Card image cap"
@@ -721,9 +733,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -733,7 +749,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/60/07/c1/6007c15615a556a8ad2ddc4794c88172.jpg"
                           style="height: 250px"
                           alt="Card image cap"
@@ -748,9 +764,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -760,7 +780,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/9f/2c/6a/9f2c6a9ce65253d3fbead71791e72c10.jpg"
                           style="height: 250px"
                         />
@@ -774,10 +794,14 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                              >Detalhes</a
-                            ><a class="btn btn-outline-secondary" href="#"
-                              >Comprar</a
-                            >
+                                >Sin</a
+                              ><a class="btn btn-outline-secondary" href="#"
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
+                              >
                             </div>
                           </div>
                         </div>
@@ -786,7 +810,7 @@
                     <div class="col-md-4 mb-4">
                       <div class="card text-center h-80 border-0 box-shadow">
                         <img
-                          class="card-img-top box-img"
+                          class="card-img-top"
                           src="https://i.pinimg.com/564x/47/da/55/47da5510afd1bc227cc37352665cbaed.jpg"
                           style="height: 250px"
                         />
@@ -800,9 +824,13 @@
                           <div class="card-footer bg-white px-0">
                             <div class="btn-group btn-group-sm">
                               <a class="btn btn-outline-secondary" href="#"
-                                >Detalhes</a
+                                >Sin</a
                               ><a class="btn btn-outline-secondary" href="#"
-                                >Comprar</a
+                                >Twn</a
+                              ><a
+                                class="btn btn-outline-secondary disabled"
+                                href="#"
+                                >Tri</a
                               >
                             </div>
                           </div>
@@ -816,7 +844,377 @@
           </div>
         </div>
       </div>
-     
+      <hr />
 
-</body>
+      <!--edit&remove Modal-->
+      <div
+        class="modal fade"
+        id="removeModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-white bg-danger">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                class="close"
+                type="button"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="card-body">
+                <div class="px-4 py-3">
+                  <h6 class="text-center mb-5">Selected item</h6>
+                  <table class="table table-sm">
+                    <thead class="text-center">
+                      <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Number</th>
+                        <th class="text-right">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody class="text-center">
+                      <tr>
+                        <td class="align-middle">
+                          <div class="list-card">
+                            <a
+                              class="text-muted"
+                              href="#removeModal"
+                              data-toggle="modal"
+                              data-target="#removeModal"
+                              data-title=""
+                              ><i class="fa fa-trash" aria-hidden="ture"></i
+                            ></a>
+                            <img
+                              src="https://i.pinimg.com/564x/ee/0f/88/ee0f880849e919c7ddbe53e3107b4d4a.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">Established</td>
+                        <td class="align-middle">1</td>
+                        <td class="align-middle text-right">$600</td>
+                      </tr>
+                      <tr>
+                        <td class="align-middle">
+                          <div class="list-card">
+                            <a
+                              class="text-muted"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#removeModal"
+                              data-title=""
+                              ><i class="fa fa-trash" aria-hidden="ture"></i
+                            ></a>
+                            <img
+                              src="https://i.pinimg.com/564x/f4/5e/8e/f45e8ee28d8195399897ea6c0c5ab95d.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">Unchanged</td>
+                        <td class="align-middle">2</td>
+                        <td class="align-middle text-right">$1600</td>
+                      </tr>
+                      <tr>
+                        <td class="del align-middle">
+                          <div class="list-card">
+                            <a
+                              class="text-muted"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#removeModal"
+                              data-title=""
+                              ><i class="fa fa-trash" aria-hidden="ture"></i
+                            ></a>
+                            <img
+                              src="https://i.pinimg.com/564x/50/c4/e2/50c4e2d0b5eb3d0652e0aa5959cec9f7.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">McClintock</td>
+                        <td class="align-middle">3</td>
+                        <td class="align-middle text-right">$2600</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                class="btn btn-outline-dark"
+                type="button"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button class="btn btn-outline-danger" type="button">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="editModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-white bg-warning">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                class="close"
+                type="button"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="card-body">
+                <div class="px-4 py-3">
+                  <h6 class="text-center mb-5">Selected item</h6>
+                  <table class="table table-sm">
+                    <thead class="text-center">
+                      <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Number</th>
+                        <th class="text-right">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody class="text-center">
+                      <tr>
+                        <td class="align-middle">
+                          <div class="list-card">
+                            <img
+                              src="https://i.pinimg.com/564x/ee/0f/88/ee0f880849e919c7ddbe53e3107b4d4a.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">Established</td>
+                        <td class="align-middle">1</td>
+                        <td class="align-middle text-right">$600</td>
+                      </tr>
+                      <tr>
+                        <td class="align-middle">
+                          <div class="list-card">
+                            <img
+                              src="https://i.pinimg.com/564x/f4/5e/8e/f45e8ee28d8195399897ea6c0c5ab95d.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">Unchanged</td>
+                        <td class="align-middle">2</td>
+                        <td class="align-middle text-right">$1600</td>
+                      </tr>
+                      <tr>
+                        <td class="del align-middle">
+                          <div class="list-card">
+                            <img
+                              src="https://i.pinimg.com/564x/50/c4/e2/50c4e2d0b5eb3d0652e0aa5959cec9f7.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </td>
+                        <td class="align-middle">McClintock</td>
+                        <td class="align-middle">3</td>
+                        <td class="align-middle text-right">$2600</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                class="btn btn-outline-dark"
+                type="button"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button class="btn btn-outline-danger" type="button">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="sendModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-light">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                class="close"
+                type="button"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form class="p-5">
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationServer01">First name</label>
+                    <input
+                      class="form-control is-valid"
+                      id="validationServer01"
+                      type="text"
+                      placeholder="First name"
+                      value="Mark"
+                      required=""
+                    />
+                    <div class="valid-feedback"></div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationServer02">Last name</label>
+                    <input
+                      class="form-control is-valid"
+                      id="validationServer02"
+                      type="text"
+                      placeholder="Last name"
+                      value="Otto"
+                      required=""
+                    />
+                    <div class="valid-feedback"></div>
+                  </div>
+                  <div class="col-md-4 mb-3"></div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationServer03">City</label>
+                    <input
+                      class="form-control is-invalid"
+                      id="validationServer03"
+                      type="text"
+                      placeholder="City"
+                      required=""
+                    />
+                    <div class="invalid-feedback"></div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationServer05">Email</label>
+                    <input
+                      class="form-control is-invalid"
+                      id="validationServer05"
+                      type="email"
+                      placeholder="email"
+                      required=""
+                    />
+                    <div class="invalid-feedback"></div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-12 mb-3">
+                    <label for="validationServer01">address</label>
+                    <input
+                      class="form-control is-invalid"
+                      id="validationServer01"
+                      type="text"
+                      placeholder="First name"
+                      value="Mark"
+                      required=""
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+                </div>
+                <div class="form-group text-center">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input is-invalid mt-2"
+                      id="invalidCheck3"
+                      type="checkbox"
+                      value=""
+                      required=""
+                    />
+                    <label class="form-check-label" for="invalidCheck3"
+                      >Confirm that no problem is sent</label
+                    >
+                    <button class="btn btn-outline-danger ml-3">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-dark">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center text-white py-4">
+             Footer
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"
+      ></script>
+      <script>
+        $("#editModal").on("show.bs.modal", function (evt) {
+          let btn = $(evt.relatedTarget);
+          let title = btn.data("title");
+          let modal = $(this);
+          modal.find(".modal-title").text(title);
+        });
+
+        $("#removeModal").on("show.bs.modal", function (evt) {
+          let btn = $(evt.relatedTarget);
+          let title = btn.data("title");
+          let modal = $(this);
+          modal.find(".modal-title").text("Confirm Deletion" + " :   " + title);
+        });
+
+        $("#sendModal").on("show.bs.modal", function (evt) {
+          let btn = $(evt.relatedTarget);
+          let title = btn.data("title");
+          let modal = $(this);
+          modal.find(".modal-title").text("Double Confirm" + " :   " + title);
+        });
+      </script>
+  </body>
 </html>
