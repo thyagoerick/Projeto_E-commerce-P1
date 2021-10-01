@@ -172,6 +172,9 @@ body::-webkit-scrollbar-thumb {
 /* -----Página loginEcadastro ------- */
 .linkCadastro:link, .linkCadastro:visited, .linkCadastro:active {color:#336548;}
 .linkCadastro:hover{color:#C2943E;} /*Mouse em cima do link*/
+
+.linkCad:link, .linkCad:visited, .linkCad:active {color:#90454C;}
+.linkCad:hover{color:#C2943E;}
 #login{
     width: 100%;
     display: inline-table;
@@ -199,6 +202,7 @@ body::-webkit-scrollbar-thumb {
 
 #cadastro{
     padding-top: 5%;
+
     padding-bottom: 10%;
     border-top-color:#C2943E;
     border-top-width: 2.4px;

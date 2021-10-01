@@ -104,3 +104,11 @@ NyEre34#567
         window.location.href="../HTML/loginEcadastro.html";
     }
 }
+
+function buscar(){
+    if(Buscar.value=="Roupas Brancas" || Buscar.value=="roupas brancas" || Buscar.value=="Roupas brancas" || Buscar.value=="roupas Brancas"){
+        window.location.href="../HTML/busca.html";
+    }else if (Buscar.value==""){
+        alert("Digite um texto para efetuar a busca!");
+    }
+}
