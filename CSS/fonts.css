@@ -12,11 +12,22 @@
     */
 
 }
-myFont{
+myFont, .myFont{
     font-family: "Bulldozer";
 }
 
-.colorTxtNav{
+.colorTxtNav, .colorTxtW{
     color: #fefefe;
 }
 
+.colorTxtG{
+    color:#336548;
+}
+
+.colorTxtY{
+    color:#C2943E;
+}
+
+.colorTxtR{
+    color: #90454C;
+}
