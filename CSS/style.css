@@ -168,7 +168,6 @@ body::-webkit-scrollbar-thumb {
   }
 /*--------------------------------------FIM ESTILOS GLOBAIS------------------------------------------*/
 
-
 /* -----Página loginEcadastro ------- */
 .linkCadastro:link, .linkCadastro:visited, .linkCadastro:active {color:#336548;}
 .linkCadastro:hover{color:#C2943E;} /*Mouse em cima do link*/
@@ -202,7 +201,6 @@ body::-webkit-scrollbar-thumb {
 
 #cadastro{
     padding-top: 5%;
-
     padding-bottom: 10%;
     border-top-color:#C2943E;
     border-top-width: 2.4px;
@@ -277,4 +275,5 @@ body::-webkit-scrollbar-thumb {
     font-size: 16px; 
 
 }
+
 
