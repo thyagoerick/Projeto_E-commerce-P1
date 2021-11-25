@@ -34,7 +34,7 @@
             </p>
           </div>
      
-          <div id="linkImg"> 
+          <div id="linkImg">
             <h4 class="colorTxtG">
               <strong>Não possui cadastro?</strong>
             </h4>
@@ -66,10 +66,9 @@
       </div>
 
       <div class="form-row">
-        
         <div class="form-group col-md-6">
           <label for="inputTellCad">Telefone:</label>
-          <input type="text" class="form-control" id="inputTellCad" placeholder="Digite seu número" required>
+          <input type="text" class="form-control" id="inputTellCad" placeholder="Digite seu número">
         </div>
         <div class="form-group col-md-6">
           <label for="inputCPFCad">CPF:</label>
