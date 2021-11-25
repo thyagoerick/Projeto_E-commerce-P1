@@ -18,15 +18,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!--jQuery 3.6.0-->
-    <script lang="javascript" src="/JS/jquery-3.6.0.js"></script>
-    <!--jQuery UI 1.13-->
-    <script lang="javascript" src="/JS/jquery-ui.js"></script>
+    <script lang="javascript" src="../JS/jquery-3.6.0.js"></script>
+    <!--jQuery UI -->
+    <script lang="javascript" src="../JS/jquery-ui/jquery.js"></script>
+    <script lang="javascript" src="../JS/jquery-ui/jquery-ui.js"></script>
+    <link rel="stylesheet" href="../CSS/jquery-ui/jquery-ui.css"/>
+    <link rel="stylesheet" href="../CSS/jquery-ui/jquery-ui.structure.css"/>
+    <link rel="stylesheet" href="../CSS/jquery-ui/jquery-ui.theme.css"/>
+    
+
   <!--Fonte da Cliente-->
-  <link rel="stylesheet" href="../CSS/fonts.css">
+  <link rel="stylesheet" href="../CSS/fonts.css"/>
   <!--Nosso CSS-->
-  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/style.css"/>
   <!--Ícone-->
-  <link rel="icon" type="image/png" href="../IMGs/icone-site.png">
+  <link rel="icon" type="image/png" href="../IMGs/icone-site.png"/>
   <!-- RegEx e Valida JS-->
   <script lang="javascript" src="../JS/valida.js"></script>
   <script lang="javascript" src="../JS/regEx.js"></script>
