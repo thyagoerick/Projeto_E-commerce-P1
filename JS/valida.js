@@ -43,13 +43,16 @@ function testar(){
      }
 
     //Valida Telefone:
-    if(!regTelefone.test(inputTellCad.value)){
-        alert("Informe um telefone válido!");
-		inputTellCad.focus();
-		inputTellCad.value="";
-		return false;  
+    if(inputTellCad.value != ''){
+        if(!regTelefone.test(inputTellCad.value)){
+            alert("Informe um telefone válido!");
+            inputTellCad.focus();
+            inputTellCad.value="";
+            return false;  
+        }
     }
-
+        
+   
     //Validar o tamanho e a escrita do CPF
     if(!regCPF.test(inputCPFCad.value)){
         alert("CPF inválido!");
@@ -95,13 +98,6 @@ NyEre34#567
         inputCEPCad.focus();
         inputCEPCad.value="";
         return false;
-    }
-
-    if(inputNomeCad.value && inputEmailCad.value && inputTellCad.value && inputCPFCad.value && inputSenhaCad.value &&inputConfSenCad.value && inputEndCad.value && inputCompleCad.value &&inputCidadeCad.value && inputEstadoCad.value && inputCEPCad.value){
-        alert("Cadastro realizado com Sucesso!!!!");
-
-        //Faz o redirecionamento:
-        window.location.href="../HTML/loginEcadastro.html";
     }
 }
 
