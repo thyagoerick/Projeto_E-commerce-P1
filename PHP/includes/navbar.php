@@ -48,7 +48,7 @@
       
         <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarSuportado">
             <form action="../PHP/busca.php" method="GET">
-                <div class="input-group">
+                <div id="divInputBuscar" class="input-group">
                     <input type="text" class="form-control" placeholder="Buscar" id="Buscar" aria-label="Buscar" aria-describedby="button-addon2">
                     <div class="input-group-append">
                       <button class="btn btn-outline-light" type="submit" id="button-addon2" onclick="buscar();">OK</button>

@@ -165,6 +165,12 @@ body::-webkit-scrollbar-thumb {
     .svg{
         height: 45px;
     }
+
+    #divInputBuscar{
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
   }
 /*--------------------------------------FIM ESTILOS GLOBAIS------------------------------------------*/
 
